@@ -1,0 +1,774 @@
+{
+  "tested_at_utc": "2026-11-06T04:49:32.249940+00:00",
+  "target": "C:\\Users\\Administrator\\premier-one-ads-strategy\\index.html",
+  "checks": [
+    {
+      "name": "title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "single h1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "removed internal or over-budget text: internal review",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "removed internal or over-budget text: pending research",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "removed internal or over-budget text: earlier page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "removed internal or over-budget text: previous errors",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "removed internal or over-budget text: capture file",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "removed internal or over-budget text: Print / PDF",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "removed internal or over-budget text: 30-40",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "removed internal or over-budget text: $1,500",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "removed internal or over-budget text: $2,500",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "removed internal or over-budget text: $5,000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no private/raw research links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source counts agree",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "county source and radius distinction",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all 41 exact keywords and no duplicates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source metrics: house demolition",
+      "passed": true,
+      "detail": [
+        "house demolition",
+        "10",
+        "Low",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: residential demolition",
+      "passed": true,
+      "detail": [
+        "residential demolition",
+        "10",
+        "Low",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: mobile home demolition",
+      "passed": true,
+      "detail": [
+        "mobile home demolition",
+        "10",
+        "Unknown",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: mobile home removal",
+      "passed": true,
+      "detail": [
+        "mobile home removal",
+        "10",
+        "High",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: barn demolition",
+      "passed": true,
+      "detail": [
+        "barn demolition",
+        "10",
+        "Unknown",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: garage demolition",
+      "passed": true,
+      "detail": [
+        "garage demolition",
+        "0",
+        "Unknown",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: concrete removal",
+      "passed": true,
+      "detail": [
+        "concrete removal",
+        "10",
+        "Unknown",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: pool removal",
+      "passed": true,
+      "detail": [
+        "pool removal",
+        "10",
+        "Low",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: demolition contractor",
+      "passed": true,
+      "detail": [
+        "demolition contractor",
+        "30",
+        "Low",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: demolition companies near me",
+      "passed": true,
+      "detail": [
+        "demolition companies near me",
+        "10",
+        "High",
+        "$10.00 / $12.00"
+      ]
+    },
+    {
+      "name": "source metrics: demolition greenville sc",
+      "passed": true,
+      "detail": [
+        "demolition greenville sc",
+        "40",
+        "Low",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: land clearing",
+      "passed": true,
+      "detail": [
+        "land clearing",
+        "30",
+        "High",
+        "$4.00 / $13.96"
+      ]
+    },
+    {
+      "name": "source metrics: lot clearing",
+      "passed": true,
+      "detail": [
+        "lot clearing",
+        "10",
+        "Unknown",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: grading contractor",
+      "passed": true,
+      "detail": [
+        "grading contractor",
+        "10",
+        "Medium",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: site preparation",
+      "passed": true,
+      "detail": [
+        "site preparation",
+        "10",
+        "Low",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: excavation contractor",
+      "passed": true,
+      "detail": [
+        "excavation contractor",
+        "10",
+        "High",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: foundation excavation",
+      "passed": true,
+      "detail": [
+        "foundation excavation",
+        "10",
+        "Unknown",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: trenching services",
+      "passed": true,
+      "detail": [
+        "trenching services",
+        "10",
+        "Low",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: land grading",
+      "passed": true,
+      "detail": [
+        "land grading",
+        "10",
+        "Medium",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: house demolition near me",
+      "passed": true,
+      "detail": [
+        "house demolition near me",
+        "10",
+        "High",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: mobile home demolition near me",
+      "passed": true,
+      "detail": [
+        "mobile home demolition near me",
+        "10",
+        "High",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: mobile home removal near me",
+      "passed": true,
+      "detail": [
+        "mobile home removal near me",
+        "10",
+        "Unknown",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: residential demolition contractors",
+      "passed": true,
+      "detail": [
+        "residential demolition contractors",
+        "10",
+        "Unknown",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: concrete removal near me",
+      "passed": true,
+      "detail": [
+        "concrete removal near me",
+        "10",
+        "Unknown",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: pool removal near me",
+      "passed": true,
+      "detail": [
+        "pool removal near me",
+        "10",
+        "Low",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: pool demolition near me",
+      "passed": true,
+      "detail": [
+        "pool demolition near me",
+        "10",
+        "High",
+        "$10.00 / $37.83"
+      ]
+    },
+    {
+      "name": "source metrics: demolition services",
+      "passed": true,
+      "detail": [
+        "demolition services",
+        "10",
+        "High",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: demolition companies",
+      "passed": true,
+      "detail": [
+        "demolition companies",
+        "10",
+        "Low",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: demolition contractors near me",
+      "passed": true,
+      "detail": [
+        "demolition contractors near me",
+        "10",
+        "High",
+        "$10.00 / $18.21"
+      ]
+    },
+    {
+      "name": "source metrics: land clearing near me",
+      "passed": true,
+      "detail": [
+        "land clearing near me",
+        "30",
+        "Medium",
+        "$3.65 / $15.59"
+      ]
+    },
+    {
+      "name": "source metrics: land clearing services",
+      "passed": true,
+      "detail": [
+        "land clearing services",
+        "20",
+        "Low",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: land clearing services near me",
+      "passed": true,
+      "detail": [
+        "land clearing services near me",
+        "10",
+        "Unknown",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: lot clearing near me",
+      "passed": true,
+      "detail": [
+        "lot clearing near me",
+        "10",
+        "High",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: grading companies near me",
+      "passed": true,
+      "detail": [
+        "grading companies near me",
+        "90",
+        "High",
+        "$2.12 / $13.00"
+      ]
+    },
+    {
+      "name": "source metrics: grading contractors near me",
+      "passed": true,
+      "detail": [
+        "grading contractors near me",
+        "90",
+        "High",
+        "$2.12 / $13.00"
+      ]
+    },
+    {
+      "name": "source metrics: land grading contractors near me",
+      "passed": true,
+      "detail": [
+        "land grading contractors near me",
+        "90",
+        "High",
+        "$2.12 / $13.00"
+      ]
+    },
+    {
+      "name": "source metrics: excavation companies near me",
+      "passed": true,
+      "detail": [
+        "excavation companies near me",
+        "10",
+        "High",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: excavation contractors near me",
+      "passed": true,
+      "detail": [
+        "excavation contractors near me",
+        "10",
+        "High",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: land grading near me",
+      "passed": true,
+      "detail": [
+        "land grading near me",
+        "10",
+        "High",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: site preparation contractors",
+      "passed": true,
+      "detail": [
+        "site preparation contractors",
+        "10",
+        "Unknown",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "source metrics: trenching contractors near me",
+      "passed": true,
+      "detail": [
+        "trenching contractors near me",
+        "10",
+        "Unknown",
+        "N/A / N/A"
+      ]
+    },
+    {
+      "name": "19 core rows visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "22 additional rows collapsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard details opens all 41",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard details closes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "competitor link agrees with research: https://threlkelddemolitionllc.com/greenville-sc/",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "competitor link agrees with research: https://upstatedemolition.com/",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "competitor link agrees with research: https://rocksolidearthworks.net/",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "competitor positioning caveat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "total ceiling includes approved fees/tools",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "daily arithmetic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "three fixed CPC scenarios",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fixed scenario arithmetic 10",
+      "passed": true,
+      "detail": [
+        "$10.00",
+        "100.00",
+        "10.00\u201315.00",
+        "$66.67\u2013$100.00"
+      ]
+    },
+    {
+      "name": "fixed scenario arithmetic 15",
+      "passed": true,
+      "detail": [
+        "$15.00",
+        "66.67",
+        "6.67\u201310.00",
+        "$100.00\u2013$150.00"
+      ]
+    },
+    {
+      "name": "fixed scenario arithmetic 20",
+      "passed": true,
+      "detail": [
+        "$20.00",
+        "50.00",
+        "5.00\u20137.50",
+        "$133.33\u2013$200.00"
+      ]
+    },
+    {
+      "name": "budget HTML max",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "interactive unrounded arithmetic budget=1000 CPC=10",
+      "passed": true,
+      "detail": {
+        "clicks": 100,
+        "leadsLow": 10,
+        "leadsHigh": 15,
+        "cplBest": 66.66666666666667,
+        "cplWorst": 100
+      }
+    },
+    {
+      "name": "interactive unrounded arithmetic budget=1000 CPC=15",
+      "passed": true,
+      "detail": {
+        "clicks": 66.66666666666667,
+        "leadsLow": 6.666666666666668,
+        "leadsHigh": 10,
+        "cplBest": 100,
+        "cplWorst": 150
+      }
+    },
+    {
+      "name": "interactive unrounded arithmetic budget=1000 CPC=20",
+      "passed": true,
+      "detail": {
+        "clicks": 50,
+        "leadsLow": 5,
+        "leadsHigh": 7.5,
+        "cplBest": 133.33333333333334,
+        "cplWorst": 200
+      }
+    },
+    {
+      "name": "interactive unrounded arithmetic budget=750 CPC=12",
+      "passed": true,
+      "detail": {
+        "clicks": 62.5,
+        "leadsLow": 6.25,
+        "leadsHigh": 9.375,
+        "cplBest": 80,
+        "cplWorst": 120
+      }
+    },
+    {
+      "name": "interactive unrounded arithmetic budget=0 CPC=15",
+      "passed": true,
+      "detail": {
+        "clicks": 0,
+        "leadsLow": 0,
+        "leadsHigh": 0,
+        "cplBest": null,
+        "cplWorst": null
+      }
+    },
+    {
+      "name": "interactive unrounded arithmetic budget=1000 CPC=0.01",
+      "passed": true,
+      "detail": {
+        "clicks": 100000,
+        "leadsLow": 10000,
+        "leadsHigh": 15000,
+        "cplBest": 0.06666666666666667,
+        "cplWorst": 0.09999999999999999
+      }
+    },
+    {
+      "name": "invalid input rejected budget-input=1000.01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "invalid input rejected budget-input=5000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "invalid input rejected budget-input=-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "invalid input rejected budget-input=",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "invalid input rejected cpc-input=0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "invalid input rejected cpc-input=-10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "invalid input rejected cpc-input=",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no page overflow at 320px collapsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no page overflow at 320px expanded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tables scroll independently at 320px",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no page overflow at 375px collapsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no page overflow at 375px expanded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tables scroll independently at 375px",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no page overflow at 768px collapsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no page overflow at 768px expanded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no page overflow at 1440px collapsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no page overflow at 1440px expanded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all internal anchors resolve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no JavaScript or console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no-JS readable scenarios and native details",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no-JS details works",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "javascript_errors": [],
+  "screenshots": [
+    "C:\\Users\\Administrator\\AppData\\Local\\hermes\\cache\\scratch\\premier-one-presentation\\presentation-375.png",
+    "C:\\Users\\Administrator\\AppData\\Local\\hermes\\cache\\scratch\\premier-one-presentation\\presentation-hero-375.png",
+    "C:\\Users\\Administrator\\AppData\\Local\\hermes\\cache\\scratch\\premier-one-presentation\\presentation-budget-375.png",
+    "C:\\Users\\Administrator\\AppData\\Local\\hermes\\cache\\scratch\\premier-one-presentation\\presentation-1440.png",
+    "C:\\Users\\Administrator\\AppData\\Local\\hermes\\cache\\scratch\\premier-one-presentation\\presentation-hero-1440.png",
+    "C:\\Users\\Administrator\\AppData\\Local\\hermes\\cache\\scratch\\premier-one-presentation\\presentation-budget-1440.png"
+  ],
+  "status": "passed",
+  "browser": {
+    "engine": "Chromium",
+    "version": "151.0.7922.34",
+    "executable": "C:\\Users\\Administrator\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe"
+  },
+  "checks_passed": 99,
+  "checks_total": 99
+}
