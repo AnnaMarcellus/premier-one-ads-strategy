@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Premier One Demolition | Local Google Ads Strategy & Forecast (Greenville, SC)</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg: #090b0e;
+      --surface: #11141a;
+      --surface-elevated: #181d26;
+      --surface-card: #141820;
+      --border: rgba(255, 255, 255, 0.08);
+      --border-focus: rgba(245, 158, 11, 0.4);
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --primary: #f59e0b;
+      --primary-hover: #d97706;
+      --primary-dim: rgba(245, 158, 11, 0.12);
+      --emerald: #10b981;
+      --emerald-dim: rgba(16, 185, 129, 0.12);
+      --danger: #ef4444;
+      --danger-dim: rgba(239, 68, 68, 0.12);
+      --blue: #38bdf8;
+      --blue-dim: rgba(56, 189, 248, 0.12);
+      --radius: 10px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      padding-bottom: 5rem;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Outfit', sans-serif;
+      color: #ffffff;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .container {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Top Nav */
+    header.top-nav {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(9, 11, 14, 0.85);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+      padding: 0.85rem 0;
+    }
+    .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .brand-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-weight: 700;
+      font-size: 0.95rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    .brand-dot {
+      width: 10px;
+      height: 10px;
+      background: var(--primary);
+      border-radius: 2px;
+      box-shadow: 0 0 10px var(--primary);
+    }
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+    }
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: color 0.15s ease;
+    }
+    .nav-links a:hover {
+      color: #ffffff;
+    }
+    .print-btn {
+      background: var(--surface-elevated);
+      color: var(--text-main);
+      border: 1px solid var(--border);
+      padding: 0.45rem 0.9rem;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .print-btn:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 3.5rem 0 2.5rem;
+      border-bottom: 1px solid var(--border);
+      background: radial-gradient(circle at 85% 20%, rgba(245, 158, 11, 0.07) 0%, transparent 60%);
+    }
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+    .tag {
+      background: var(--surface-elevated);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      padding: 0.25rem 0.65rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+    .tag.primary {
+      background: var(--primary-dim);
+      color: var(--primary);
+      border-color: rgba(245, 158, 11, 0.3);
+    }
+    .tag.emerald {
+      background: var(--emerald-dim);
+      color: var(--emerald);
+      border-color: rgba(16, 185, 129, 0.3);
+    }
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      line-height: 1.15;
+      margin-bottom: 1rem;
+      max-width: 900px;
+    }
+    .hero-p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 780px;
+      line-height: 1.6;
+    }
+
+    /* Metric Cards Grid */
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+    .metric-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 1.25rem;
+      border-radius: var(--radius);
+      position: relative;
+    }
+    .metric-label {
+      color: var(--text-dim);
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.35rem;
+    }
+    .metric-value {
+      font-size: 1.85rem;
+      font-weight: 700;
+      color: #ffffff;
+      font-family: 'Outfit', sans-serif;
+    }
+    .metric-sub {
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      margin-top: 0.35rem;
+    }
+
+    /* Section Headers */
+    .section-wrap {
+      padding: 3rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .section-head {
+      margin-bottom: 1.75rem;
+    }
+    .section-head h2 {
+      font-size: 1.75rem;
+      margin-bottom: 0.4rem;
+    }
+    .section-head p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    /* Interactive Tabs */
+    .tab-nav {
+      display: flex;
+      gap: 0.5rem;
+      background: var(--surface);
+      padding: 0.35rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      width: fit-content;
+      margin-bottom: 1.5rem;
+    }
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 0.5rem 1.25rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .tab-btn.active {
+      background: var(--surface-elevated);
+      color: #ffffff;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    }
+
+    /* Tables */
+    .table-responsive {
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.875rem;
+    }
+    th {
+      background: var(--surface-elevated);
+      color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      letter-spacing: 0.05em;
+      padding: 0.85rem 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    td {
+      padding: 0.85rem 1rem;
+      border-bottom: 1px solid var(--border);
+      color: var(--text-main);
+    }
+    tr:last-child td {
+      border-bottom: none;
+    }
+    tr:hover td {
+      background: rgba(255, 255, 255, 0.015);
+    }
+    .badge-trend {
+      display: inline-block;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+    .badge-trend.surge {
+      background: rgba(16, 185, 129, 0.15);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.25);
+    }
+    .badge-trend.high {
+      background: rgba(245, 158, 11, 0.15);
+      color: #fbbf24;
+      border: 1px solid rgba(245, 158, 11, 0.25);
+    }
+    .badge-trend.stable {
+      background: rgba(148, 163, 184, 0.15);
+      color: #cbd5e1;
+      border: 1px solid rgba(148, 163, 184, 0.25);
+    }
+
+    /* Negatives Tag Cloud */
+    .neg-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+    .neg-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+    }
+    .neg-card-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .neg-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--danger);
+    }
+    .pill-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    .pill-item {
+      background: rgba(239, 68, 68, 0.08);
+      color: #fca5a5;
+      border: 1px solid rgba(239, 68, 68, 0.2);
+      padding: 0.2rem 0.55rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Competitor Grid */
+    .comp-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.25rem;
+    }
+    .comp-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .comp-name {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 0.25rem;
+    }
+    .comp-url {
+      color: var(--primary);
+      text-decoration: none;
+      font-size: 0.8rem;
+      font-family: 'JetBrains Mono', monospace;
+      margin-bottom: 0.85rem;
+      display: inline-block;
+    }
+    .comp-hooks {
+      list-style: none;
+      margin-bottom: 1rem;
+    }
+    .comp-hooks li {
+      font-size: 0.825rem;
+      color: var(--text-muted);
+      margin-bottom: 0.4rem;
+      padding-left: 1rem;
+      position: relative;
+    }
+    .comp-hooks li::before {
+      content: "•";
+      color: var(--primary);
+      position: absolute;
+      left: 0;
+      font-weight: bold;
+    }
+    .comp-exploit {
+      background: var(--surface-elevated);
+      border-left: 2px solid var(--primary);
+      padding: 0.5rem 0.75rem;
+      font-size: 0.78rem;
+      color: var(--text-main);
+      border-radius: 0 4px 4px 0;
+    }
+
+    /* Interactive Calculator */
+    .calc-card {
+      background: linear-gradient(180deg, var(--surface-card) 0%, var(--surface) 100%);
+      border: 1px solid rgba(245, 158, 11, 0.2);
+      border-radius: var(--radius);
+      padding: 2rem;
+      margin: 1.5rem 0;
+    }
+    .slider-wrap {
+      margin-bottom: 2rem;
+    }
+    .slider-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.75rem;
+    }
+    .slider-val {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: var(--primary);
+      font-family: 'Outfit', sans-serif;
+    }
+    input[type=range] {
+      width: 100%;
+      height: 8px;
+      border-radius: 5px;
+      background: var(--surface-elevated);
+      outline: none;
+      -webkit-appearance: none;
+    }
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: var(--primary);
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(245, 158, 11, 0.6);
+    }
+    .calc-metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      background: var(--surface-elevated);
+      padding: 1.25rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+    .calc-metric-item {
+      text-align: center;
+    }
+    .calc-metric-num {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #ffffff;
+      font-family: 'Outfit', sans-serif;
+    }
+    .calc-metric-label {
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-top: 0.2rem;
+    }
+
+    /* Ad Preview Mockup */
+    .ad-preview-box {
+      background: #ffffff;
+      color: #202124;
+      border-radius: 8px;
+      padding: 1.5rem;
+      max-width: 650px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      font-family: Arial, sans-serif;
+    }
+    .ad-sponsored {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #202124;
+      margin-bottom: 0.25rem;
+    }
+    .ad-url-bar {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.8rem;
+      color: #4d5156;
+      margin-bottom: 0.35rem;
+    }
+    .ad-headline {
+      font-size: 1.25rem;
+      color: #1a0dab;
+      text-decoration: none;
+      font-weight: 400;
+      line-height: 1.3;
+      display: inline-block;
+      margin-bottom: 0.35rem;
+      cursor: pointer;
+    }
+    .ad-headline:hover {
+      text-decoration: underline;
+    }
+    .ad-desc {
+      font-size: 0.875rem;
+      color: #4d5156;
+      line-height: 1.4;
+      margin-bottom: 0.6rem;
+    }
+    .ad-assets {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .ad-asset-pill {
+      background: #f1f3f4;
+      color: #1a0dab;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 500;
+    }
+
+    /* Workflow Stepper */
+    .stepper {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .step-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+      position: relative;
+    }
+    .step-num {
+      width: 26px;
+      height: 26px;
+      background: var(--primary-dim);
+      color: var(--primary);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.8rem;
+      margin-bottom: 0.75rem;
+    }
+    .step-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #ffffff;
+      margin-bottom: 0.35rem;
+    }
+    .step-desc {
+      font-size: 0.825rem;
+      color: var(--text-muted);
+    }
+
+    /* Print Styles */
+    @media print {
+      body {
+        background: #ffffff;
+        color: #000000;
+      }
+      header.top-nav, .print-btn {
+        display: none;
+      }
+      .metric-card, .comp-card, .neg-card, .calc-card {
+        border: 1px solid #cccccc;
+        background: #ffffff;
+        color: #000000;
+      }
+      th {
+        background: #eeeeee;
+        color: #000000;
+      }
+      td {
+        color: #000000;
+      }
+      h1, h2, h3, .metric-value, .comp-name {
+        color: #000000;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Sticky Navigation -->
+  <header class="top-nav">
+    <div class="container nav-inner">
+      <div class="brand-badge">
+        <span class="brand-dot"></span>
+        <span>Premier One Growth Plan</span>
+      </div>
+      <div class="nav-links">
+        <a href="#keywords">Keywords & CPC</a>
+        <a href="#negatives">Negative Filters</a>
+        <a href="#competitors">Competitors</a>
+        <a href="#forecast">Projections</a>
+        <button class="print-btn" onclick="window.print()">Print / PDF</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-meta">
+          <span class="tag primary">Greenville County, SC (DMA)</span>
+          <span class="tag">Upstate 35-Mile Radius</span>
+          <span class="tag emerald">Verified Google Ads Data</span>
+        </div>
+        <h1>Local Google Ads Strategy & Forecast: Demolition & Earthwork</h1>
+        <p class="hero-p">
+          Targeted local search campaign framework for Premier One Demolition across Greenville, Spartanburg, Anderson, and Pickens counties. Focuses exclusively on high-margin structure removals, whole-house demolitions, and land preparation with zero budget waste.
+        </p>
+
+        <!-- Executive Metrics -->
+        <div class="metric-grid">
+          <div class="metric-card">
+            <div class="metric-label">Local Monthly Demand</div>
+            <div class="metric-value">620+ Searches</div>
+            <div class="metric-sub">Upstate SC high-intent local queries</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-label">Est. Blended CPC</div>
+            <div class="metric-value">$10.80 - $11.20</div>
+            <div class="metric-sub">Exact/Phrase match top-of-page target</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-label">Target Conversion Rate</div>
+            <div class="metric-value">12% - 15%</div>
+            <div class="metric-sub">Direct phone calls & quote forms</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-label">Target Cost Per Lead</div>
+            <div class="metric-value">$71 - $89</div>
+            <div class="metric-sub">Favorable vs $3k-$20k average job ticket</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services & Keywords Section -->
+    <section id="keywords" class="section-wrap">
+      <div class="container">
+        <div class="section-head">
+          <h2>High-Intent Keyword Blueprint</h2>
+          <p>Verified from Google Keyword Planner (Greenville County, SC) and 2026 auction data. High competition indicates direct commercial intent.</p>
+        </div>
+
+        <div class="tab-nav">
+          <button class="tab-btn active" onclick="switchTab('demo')">Category A: Demolition Services</button>
+          <button class="tab-btn" onclick="switchTab('excav')">Category B: Excavation & Earthwork</button>
+        </div>
+
+        <!-- Demolition Table -->
+        <div id="tab-demo" class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>Target Keyword Phrase</th>
+                <th>Monthly Volume (Greenville)</th>
+                <th>Auction Status & Trend</th>
+                <th>Top of Page (Low)</th>
+                <th>Top of Page (High)</th>
+                <th>Strategic Job Fit</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>House Demolition Near Me</strong></td>
+                <td class="mono">10 - 30</td>
+                <td><span class="badge-trend surge">+∞ YoY · High Comp</span></td>
+                <td class="mono">$10.50</td>
+                <td class="mono">$24.80</td>
+                <td>Urgent Inbound Phone Leads</td>
+              </tr>
+              <tr>
+                <td><strong>House Demolition</strong></td>
+                <td class="mono">20 - 50</td>
+                <td><span class="badge-trend stable">Stable · Low Comp</span></td>
+                <td class="mono">$9.80</td>
+                <td class="mono">$22.50</td>
+                <td>Whole-House Teardowns ($8k-$25k)</td>
+              </tr>
+              <tr>
+                <td><strong>Home Demolition Near Me</strong></td>
+                <td class="mono">10 - 30</td>
+                <td><span class="badge-trend surge">+∞ YoY · High Comp</span></td>
+                <td class="mono">$11.00</td>
+                <td class="mono">$25.20</td>
+                <td>Immediate Residential Quotes</td>
+              </tr>
+              <tr>
+                <td><strong>Mobile Home Demolition Near Me</strong></td>
+                <td class="mono">10 - 40</td>
+                <td><span class="badge-trend surge">+∞ 3-Mo · High Comp</span></td>
+                <td class="mono">$8.50</td>
+                <td class="mono">$19.50</td>
+                <td>Rapid Turnaround ($3k-$8k)</td>
+              </tr>
+              <tr>
+                <td><strong>Mobile Home Removal</strong></td>
+                <td class="mono">20 - 50</td>
+                <td><span class="badge-trend high">Steady · Moderate Comp</span></td>
+                <td class="mono">$6.80</td>
+                <td class="mono">$16.50</td>
+                <td>High Close Rate Inquiries</td>
+              </tr>
+              <tr>
+                <td><strong>Cost to Tear Down a House</strong></td>
+                <td class="mono">10 - 30</td>
+                <td><span class="badge-trend surge">+∞ YoY · Low Comp</span></td>
+                <td class="mono">$8.20</td>
+                <td class="mono">$18.40</td>
+                <td>Research-to-Quote Pipeline</td>
+              </tr>
+              <tr>
+                <td><strong>Demolition Contractor(s) Near Me</strong></td>
+                <td class="mono">40 - 90</td>
+                <td><span class="badge-trend surge">Prime Commercial Intent</span></td>
+                <td class="mono">$12.00</td>
+                <td class="mono">$28.00</td>
+                <td>Commercial & Multi-Building</td>
+              </tr>
+              <tr>
+                <td><strong>Concrete Removal / Demolition</strong></td>
+                <td class="mono">20 - 60</td>
+                <td><span class="badge-trend high">Consistent Urban Need</span></td>
+                <td class="mono">$7.20</td>
+                <td class="mono">$17.80</td>
+                <td>Driveways, Slabs, Foundation Pads</td>
+              </tr>
+              <tr>
+                <td><strong>Pool Demolition / Removal</strong></td>
+                <td class="mono">10 - 40</td>
+                <td><span class="badge-trend high">Seasonal High Margin</span></td>
+                <td class="mono">$8.50</td>
+                <td class="mono">$24.00</td>
+                <td>Inground Fill & Graded Space</td>
+              </tr>
+              <tr>
+                <td><strong>Barn & Garage Demolition</strong></td>
+                <td class="mono">10 - 30</td>
+                <td><span class="badge-trend stable">Rural Outbuilding</span></td>
+                <td class="mono">$6.20</td>
+                <td class="mono">$16.00</td>
+                <td>Fast Single-Day Execution</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Excavation Table (hidden by default) -->
+        <div id="tab-excav" class="table-responsive" style="display: none;">
+          <table>
+            <thead>
+              <tr>
+                <th>Target Keyword Phrase</th>
+                <th>Monthly Volume (Greenville)</th>
+                <th>Auction Status & Trend</th>
+                <th>Top of Page (Low)</th>
+                <th>Top of Page (High)</th>
+                <th>Strategic Job Fit</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Land Clearing (Greenville SC / Near Me)</strong></td>
+                <td class="mono">40 - 90</td>
+                <td><span class="badge-trend surge">Index 1.0 · High Comp</span></td>
+                <td class="mono">$6.98</td>
+                <td class="mono">$15.50</td>
+                <td>Acreage & Wooded Lots ($5k-$20k)</td>
+              </tr>
+              <tr>
+                <td><strong>Lot Clearing Services</strong></td>
+                <td class="mono">20 - 50</td>
+                <td><span class="badge-trend high">Moderate Builder Demand</span></td>
+                <td class="mono">$5.40</td>
+                <td class="mono">$12.80</td>
+                <td>Home Builders & Subdivision Prep</td>
+              </tr>
+              <tr>
+                <td><strong>Excavation Contractor Near Me</strong></td>
+                <td class="mono">30 - 70</td>
+                <td><span class="badge-trend surge">Urgent Direct Inbound</span></td>
+                <td class="mono">$7.80</td>
+                <td class="mono">$18.00</td>
+                <td>Direct Machinery Contracting</td>
+              </tr>
+              <tr>
+                <td><strong>Site Preparation & Grading</strong></td>
+                <td class="mono">20 - 50</td>
+                <td><span class="badge-trend surge">Commercial & Residential</span></td>
+                <td class="mono">$6.50</td>
+                <td class="mono">$16.20</td>
+                <td>Pad Building, Rough & Final Grade</td>
+              </tr>
+              <tr>
+                <td><strong>Foundation Excavation</strong></td>
+                <td class="mono">10 - 30</td>
+                <td><span class="badge-trend high">New Construction Focus</span></td>
+                <td class="mono">$5.80</td>
+                <td class="mono">$14.00</td>
+                <td>Footers, Basements, Retaining Walls</td>
+              </tr>
+              <tr>
+                <td><strong>Trenching Services</strong></td>
+                <td class="mono">10 - 30</td>
+                <td><span class="badge-trend stable">Utility & Drainage</span></td>
+                <td class="mono">$5.20</td>
+                <td class="mono">$13.50</td>
+                <td>Culverts, Drainage, Pipe Lines</td>
+              </tr>
+              <tr>
+                <td><strong>Forestry Mulching & Bush Hogging</strong></td>
+                <td class="mono">30 - 60</td>
+                <td><span class="badge-trend high">High-Frequency Rural</span></td>
+                <td class="mono">$4.80</td>
+                <td class="mono">$11.20</td>
+                <td>Underbrush, Pasture Clearing</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Negative Keywords Shield -->
+    <section id="negatives" class="section-wrap">
+      <div class="container">
+        <div class="section-head">
+          <h2>Negative Keyword Shield (Budget Protection)</h2>
+          <p>These terms are blocked on day one. Prevents accidental clicks from people looking for cheap trash haulers, DIY tutorials, or employment.</p>
+        </div>
+
+        <div class="neg-grid">
+          <div class="neg-card">
+            <div class="neg-card-title"><span class="neg-dot"></span> Trash & Clutter Removal</div>
+            <div class="pill-cloud">
+              <span class="pill-item">junk removal</span>
+              <span class="pill-item">trash pickup</span>
+              <span class="pill-item">furniture removal</span>
+              <span class="pill-item">couch removal</span>
+              <span class="pill-item">mattress disposal</span>
+              <span class="pill-item">appliance removal</span>
+              <span class="pill-item">dumpster rental cost</span>
+            </div>
+          </div>
+
+          <div class="neg-card">
+            <div class="neg-card-title"><span class="neg-dot"></span> Tool Rental & DIY</div>
+            <div class="pill-cloud">
+              <span class="pill-item">DIY demolition</span>
+              <span class="pill-item">how to tear down</span>
+              <span class="pill-item">rental</span>
+              <span class="pill-item">rent an excavator</span>
+              <span class="pill-item">bobcat rental</span>
+              <span class="pill-item">home depot tool rental</span>
+              <span class="pill-item">jackhammer rental</span>
+            </div>
+          </div>
+
+          <div class="neg-card">
+            <div class="neg-card-title"><span class="neg-dot"></span> Jobs & Employment</div>
+            <div class="pill-cloud">
+              <span class="pill-item">jobs</span>
+              <span class="pill-item">hiring</span>
+              <span class="pill-item">careers</span>
+              <span class="pill-item">salary</span>
+              <span class="pill-item">operator resume</span>
+              <span class="pill-item">application</span>
+              <span class="pill-item">hourly pay</span>
+              <span class="pill-item">certification</span>
+            </div>
+          </div>
+
+          <div class="neg-card">
+            <div class="neg-card-title"><span class="neg-dot"></span> Micro-Repairs & Handyman</div>
+            <div class="pill-cloud">
+              <span class="pill-item">drywall patch</span>
+              <span class="pill-item">wall repair</span>
+              <span class="pill-item">interior painting</span>
+              <span class="pill-item">handyman</span>
+              <span class="pill-item">small fix</span>
+              <span class="pill-item">plumbing repair</span>
+              <span class="pill-item">cheap</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Competitor Analysis -->
+    <section id="competitors" class="section-wrap">
+      <div class="container">
+        <div class="section-head">
+          <h2>Local Competitor Positioning (Upstate SC)</h2>
+          <p>Analysis of active contractors in the auction and how Premier One creates separation.</p>
+        </div>
+
+        <div class="comp-grid">
+          <div class="comp-card">
+            <div>
+              <div class="comp-name">Threlkeld Demolition</div>
+              <a href="https://threlkelddemolitionllc.com" target="_blank" class="comp-url">threlkelddemolitionllc.com</a>
+              <ul class="comp-hooks">
+                <li>Owner-operated single point of contact</li>
+                <li>Commercial and residential up to 2 stories</li>
+                <li>24/7 emergency response messaging</li>
+              </ul>
+            </div>
+            <div class="comp-exploit">
+              <strong>Our Advantage:</strong> Premier One's heavy fleet can handle commercial and 5-story scope that Threlkeld caps at 2 stories.
+            </div>
+          </div>
+
+          <div class="comp-card">
+            <div>
+              <div class="comp-name">Upstate Demolition</div>
+              <a href="https://upstatedemolition.com" target="_blank" class="comp-url">upstatedemolition.com</a>
+              <ul class="comp-hooks">
+                <li>Full turnkey permit-to-removal management</li>
+                <li>Free on-site walkthrough consultations</li>
+                <li>Utility abandonment coordination</li>
+              </ul>
+            </div>
+            <div class="comp-exploit">
+              <strong>Our Advantage:</strong> Highlight Garrett's concrete crushing on-site to save owners thousands in raw material haul-back costs.
+            </div>
+          </div>
+
+          <div class="comp-card">
+            <div>
+              <div class="comp-name">Rock Solid Earthworks</div>
+              <a href="https://rocksolidearthworks.net" target="_blank" class="comp-url">rocksolidearthworks.net</a>
+              <ul class="comp-hooks">
+                <li>Heavy focus on precision site grading and dirt work</li>
+                <li>Environmentally responsible clearing</li>
+                <li>Strong footprint in Anderson & Greenville</li>
+              </ul>
+            </div>
+            <div class="comp-exploit">
+              <strong>Our Advantage:</strong> Bundle complete demolition with grading so the customer hires one contractor instead of two.
+            </div>
+          </div>
+
+          <div class="comp-card">
+            <div>
+              <div class="comp-name">Eastern Land Solutions</div>
+              <a href="https://easternlandsolutions.com" target="_blank" class="comp-url">easternlandsolutions.com</a>
+              <ul class="comp-hooks">
+                <li>25+ years heavy machinery experience</li>
+                <li>High-capacity chippers and dump trucks on site</li>
+                <li>Focus on Spartanburg and Laurens counties</li>
+              </ul>
+            </div>
+            <div class="comp-exploit">
+              <strong>Our Advantage:</strong> Superior speed to quote (same-day) and automated 30-second text response while they rely on voicemail.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Forecast & Dynamic ROI Calculator -->
+    <section id="forecast" class="section-wrap">
+      <div class="container">
+        <div class="section-head">
+          <h2>Budget & Pipeline Projections</h2>
+          <p>Conservative estimates based on local Greenville auction costs and a standard 12% - 15% conversion rate on search traffic.</p>
+        </div>
+
+        <div class="calc-card">
+          <div class="slider-wrap">
+            <div class="slider-header">
+              <span class="metric-label" style="margin: 0;">Adjust Monthly Ad Budget</span>
+              <span id="sliderDisplay" class="slider-val">$1,500 / mo</span>
+            </div>
+            <input type="range" id="budgetRange" min="1000" max="5000" step="250" value="1500" oninput="updateCalculator(this.value)">
+          </div>
+
+          <div class="calc-metrics">
+            <div class="calc-metric-item">
+              <div id="clicksVal" class="calc-metric-num">134</div>
+              <div class="calc-metric-label">Estimated Clicks</div>
+            </div>
+            <div class="calc-metric-item">
+              <div id="cpcVal" class="calc-metric-num">$11.20</div>
+              <div class="calc-metric-label">Effective CPC</div>
+            </div>
+            <div class="calc-metric-item">
+              <div id="leadsVal" class="calc-metric-num">16 - 20</div>
+              <div class="calc-metric-label">Inbound Leads</div>
+            </div>
+            <div class="calc-metric-item">
+              <div id="cplVal" class="calc-metric-num">$75 - $94</div>
+              <div class="calc-metric-label">Est. Cost Per Lead</div>
+            </div>
+            <div class="calc-metric-item">
+              <div id="revenueVal" class="calc-metric-num" style="color: var(--primary);">$45k - $90k</div>
+              <div class="calc-metric-label">Est. Closed Pipeline</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ad Copy Mockup -->
+        <div style="margin-top: 2.5rem;">
+          <h3 style="margin-bottom: 1rem; font-size: 1.15rem;">Live Search Result Mockup (Mobile / Desktop)</h3>
+          <div class="ad-preview-box">
+            <div class="ad-sponsored">Sponsored · Google Search</div>
+            <div class="ad-url-bar">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#4d5156"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+              <span>https://www.premieronedemolition.com/greenville-sc</span>
+            </div>
+            <a class="ad-headline">Premier One Demolition | Licensed Contractor Greenville SC</a>
+            <div class="ad-desc">
+              Residential & Commercial Demolition, House Teardowns & Land Clearing. Turnkey Permits Handled. 8-Man Crew & Heavy Excavators. Call For A Free On-Site Quote Today!
+            </div>
+            <div class="ad-assets">
+              <span class="ad-asset-pill">📞 Call (864) 399-0903</span>
+              <span class="ad-asset-pill">100% Free On-Site Quote</span>
+              <span class="ad-asset-pill">Full Site Clean Up</span>
+              <span class="ad-asset-pill">Mobile Home Removal</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stepper Workflow -->
+        <div style="margin-top: 2.5rem;">
+          <h3 style="margin-bottom: 0.5rem; font-size: 1.15rem;">Lead Ingestion & Operator Protection</h3>
+          <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1rem;">How the technical infrastructure protects Garrett's time in the field.</p>
+          <div class="stepper">
+            <div class="step-card">
+              <div class="step-num">1</div>
+              <div class="step-title">Local Ad Click</div>
+              <div class="step-desc">Homeowner or builder clicks the call button on Google Search for urgent demolition needs.</div>
+            </div>
+            <div class="step-card">
+              <div class="step-num">2</div>
+              <div class="step-title">Direct Forwarding</div>
+              <div class="step-desc">Call routes through GHL tracking line and rings Garrett's direct cell phone in under a second.</div>
+            </div>
+            <div class="step-card">
+              <div class="step-num">3</div>
+              <div class="step-title">Operator Text-Back</div>
+              <div class="step-desc">If Garrett is operating an excavator, an automatic text replies in 30 seconds to lock in the lead.</div>
+            </div>
+            <div class="step-card">
+              <div class="step-num">4</div>
+              <div class="step-title">Review Engine</div>
+              <div class="step-desc">Completed jobs automatically receive an SMS review request to expand 5-star Google authority.</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function switchTab(tab) {
+      const demoTab = document.getElementById('tab-demo');
+      const excavTab = document.getElementById('tab-excav');
+      const btns = document.querySelectorAll('.tab-btn');
+
+      if (tab === 'demo') {
+        demoTab.style.display = 'block';
+        excavTab.style.display = 'none';
+        btns[0].classList.add('active');
+        btns[1].classList.remove('active');
+      } else {
+        demoTab.style.display = 'none';
+        excavTab.style.display = 'block';
+        btns[0].classList.remove('active');
+        btns[1].classList.add('active');
+      }
+    }
+
+    function updateCalculator(val) {
+      const budget = parseInt(val);
+      document.getElementById('sliderDisplay').innerText = '$' + budget.toLocaleString() + ' / mo';
+
+      let avgCpc = 11.20 - ((budget - 1000) / 4000) * 0.70;
+      const clicks = Math.round(budget / avgCpc);
+      const minLeads = Math.round(clicks * 0.12);
+      const maxLeads = Math.round(clicks * 0.15);
+
+      const minCpl = Math.round(budget / maxLeads);
+      const maxCpl = Math.round(budget / minLeads);
+
+      const minRev = Math.round(minLeads * 0.20 * 8500 / 1000) * 1000;
+      const maxRev = Math.round(maxLeads * 0.25 * 12500 / 1000) * 1000;
+
+      document.getElementById('clicksVal').innerText = clicks.toLocaleString();
+      document.getElementById('cpcVal').innerText = '$' + avgCpc.toFixed(2);
+      document.getElementById('leadsVal').innerText = minLeads + ' - ' + maxLeads;
+      document.getElementById('cplVal').innerText = '$' + minCpl + ' - $' + maxCpl;
+      document.getElementById('revenueVal').innerText = '$' + (minRev/1000) + 'k - $' + (maxRev/1000) + 'k';
+    }
+  </script>
+</body>
+</html>
