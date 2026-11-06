@@ -1,0 +1,227 @@
+{
+  "timestamp_utc": "2026-11-06T03:50:26.563599+00:00",
+  "browser": "Chromium 151.0.7922.34",
+  "url": "file:///C:/Users/Administrator/premier-one-ads-strategy/index.html",
+  "checks": [
+    {
+      "name": "exact nine keyword rows, competition, changes and unavailable bids",
+      "passed": true,
+      "detail": {
+        "observed_count": 9,
+        "expected_count": 9
+      }
+    },
+    {
+      "name": "excavation source repeats all demolition keywords",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unsupported legacy claims and private phone removed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "noindex retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "official definition linked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all calculator inputs have accessible labels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "calculator renders on initial load from unrounded math",
+      "passed": true,
+      "detail": {
+        "clicks": 125,
+        "leadsLow": 12.5,
+        "leadsHigh": 18.75,
+        "cplBest": 80,
+        "cplWorst": 120
+      }
+    },
+    {
+      "name": "initial rendered labels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2500 preset math and fixed CPC",
+      "passed": true,
+      "detail": {
+        "clicks": 208.33333333333334,
+        "leadsLow": 20.833333333333336,
+        "leadsHigh": 31.25,
+        "cplBest": 80,
+        "cplWorst": 120
+      }
+    },
+    {
+      "name": "1500 preset math and fixed CPC",
+      "passed": true,
+      "detail": {
+        "clicks": 125,
+        "leadsLow": 12.5,
+        "leadsHigh": 18.75,
+        "cplBest": 80,
+        "cplWorst": 120
+      }
+    },
+    {
+      "name": "zero conversion: zero leads and undefined CPL, no Infinity",
+      "passed": true,
+      "detail": {
+        "clicks": 125,
+        "leadsLow": 0,
+        "leadsHigh": 0,
+        "cplBest": null,
+        "cplWorst": null
+      }
+    },
+    {
+      "name": "one-sided zero conversion safely represented",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "invalid zero CPC shows inline error and hides stale output",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "empty input rejected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reversed conversion range rejected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "zero budget produces zero clicks and leads",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fractional assumptions preserve unrounded intermediate math",
+      "passed": true,
+      "detail": {
+        "clicks": 112.19147344801796,
+        "leadsLow": 12.565445026178011,
+        "leadsHigh": 16.37995512341062,
+        "cplBest": 91.57534246575342,
+        "cplWorst": 119.375
+      }
+    },
+    {
+      "name": "keyboard activates preset and visible focus style",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no hidden data tabs or disclosures",
+      "passed": true,
+      "detail": "All report sections always visible; no tab or disclosure interaction applicable."
+    },
+    {
+      "name": "no document or nav overflow at 320px",
+      "passed": true,
+      "detail": {
+        "width": 320,
+        "document": 320,
+        "nav": 320
+      }
+    },
+    {
+      "name": "navigation to services works at 320px",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no document or nav overflow at 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "document": 375,
+        "nav": 375
+      }
+    },
+    {
+      "name": "navigation to services works at 375px",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no document or nav overflow at 768px",
+      "passed": true,
+      "detail": {
+        "width": 768,
+        "document": 768,
+        "nav": 768
+      }
+    },
+    {
+      "name": "navigation to services works at 768px",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no document or nav overflow at 1440px",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "document": 1440,
+        "nav": 1440
+      }
+    },
+    {
+      "name": "navigation to services works at 1440px",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "print text colors dark and legible",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "PDF includes every report section, nine keywords, both service lists and scenarios",
+      "passed": true,
+      "detail": {
+        "pages": 7,
+        "missing": [],
+        "characters": 10444
+      }
+    },
+    {
+      "name": "PDF text stays inside page bounds",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no browser JavaScript errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "passed": 31,
+  "failed": 0,
+  "evidence_dir": "C:\\Users\\Administrator\\AppData\\Local\\hermes\\cache\\scratch\\premier-one-corrective-audit",
+  "artifacts": [
+    "C:\\Users\\Administrator\\AppData\\Local\\hermes\\cache\\scratch\\premier-one-corrective-audit\\page-1440.png",
+    "C:\\Users\\Administrator\\AppData\\Local\\hermes\\cache\\scratch\\premier-one-corrective-audit\\page-320.png",
+    "C:\\Users\\Administrator\\AppData\\Local\\hermes\\cache\\scratch\\premier-one-corrective-audit\\page-375.png",
+    "C:\\Users\\Administrator\\AppData\\Local\\hermes\\cache\\scratch\\premier-one-corrective-audit\\page-768.png",
+    "C:\\Users\\Administrator\\AppData\\Local\\hermes\\cache\\scratch\\premier-one-corrective-audit\\print-first-page.png",
+    "C:\\Users\\Administrator\\AppData\\Local\\hermes\\cache\\scratch\\premier-one-corrective-audit\\print-text.txt",
+    "C:\\Users\\Administrator\\AppData\\Local\\hermes\\cache\\scratch\\premier-one-corrective-audit\\research-brief-print.pdf"
+  ]
+}
